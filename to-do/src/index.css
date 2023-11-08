@@ -98,9 +98,11 @@ button:focus-visible {
 }
 
 .completed {
-  color: var(--primary);
   transition: color 0.2s ease;
+  text-decoration: line-through;
+  /* Зачеркивание текста */
 }
+
 
 form {
   border: 1px solid #ddd;
@@ -122,18 +124,4 @@ form {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.TaskWrapper {
-  display: flex;
-  align-items: center;
-}
-
-.taskTitle {
-  margin-left: 10px;
-}
-
-/* Зачеркивание текста */
-.item__title--completed {
-  text-decoration: line-through;
 }
