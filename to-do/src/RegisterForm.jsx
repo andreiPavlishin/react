@@ -1,8 +1,5 @@
 // Форма регистрации пользователя
-
 import { useState } from 'react';
-
-
 export default function RegisterForm({ onRegister }) {
     const [username, setUsername] = useState(''); // Использование хука useState для управления состоянием имени пользователя
 
@@ -23,3 +20,4 @@ export default function RegisterForm({ onRegister }) {
         </form>
     );
 }
+
